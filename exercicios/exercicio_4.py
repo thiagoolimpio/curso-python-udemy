@@ -10,8 +10,18 @@
 #se nada for digitado exiba : nada foi digitado, voce deixou campos incompletos
 
 nome = input('digite seu nome: ')
-print(f"Seu nome é {nome} ")
-print("Seu nome invertido é: ", (nome[::-1]) )
-print("Seu nome tem:", (len(nome)), "letras")
-print("a primeira letra do seu nome é:", (nome[0]))
-print("A ultima letra do seu nome é:", (nome[5]))
+idade = input("Digite sua idade: ")
+if nome and idade :   
+    print(f"Seu nome é {nome} ")
+    print("Seu nome invertido é: ", (nome[::-1]) )
+if nome and idade:
+    print("Seu nome tem:", (len(nome)), "letras")
+if nome and idade:
+    print("a primeira letra do seu nome é:", (nome[0]))
+    print("A ultima letra do seu nome é:", (nome[5]))
+else:
+    print("Campo vazio, nao podemos prosseguir!")
+    
+
+
+

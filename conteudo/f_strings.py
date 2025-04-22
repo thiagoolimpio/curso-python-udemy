@@ -8,3 +8,7 @@ altura_metros = 1.75
 linha = f"{nome}, tem {altura_metros} de altura e tem {idade} anos de idade"
 
 print(linha)
+
+
+
+
